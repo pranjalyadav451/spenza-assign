@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.css"
+      integrity="sha512-KXol4x3sVoO+8ZsWPFI/r5KBVB/ssCGB5tsv2nVOKwLg33wTFP3fmnXa47FdSVIshVTgsYk/1734xSk9aFIa4A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Events Library Tester</title>
+  </head>
+  <body>
+    <main>
+      <h1>Event Library</h1>
+
+      <section>
+        <div>
+          <div>
+            <label for="event-name">Event Name</label>
+            <input
+              maxlength="10"
+              placeholder="Event-Name in less than 10 letters."
+              id="event-name"
+              type="text"
+            />
+          </div>
+          <div>
+            <button id="reg-click">Register the event.</button>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h3>Registered events list</h3>
+        <ul id="event-list"></ul>
+      </section>
+
+      <section>
+        <div>
+          <div>
+            <label for="trg-event-name">Trigger the event</label>
+            <input
+              maxlength="10"
+              placeholder="Event-Name"
+              id="trg-event-name"
+              type="text"
+            />
+            <button id="trg-event">Trigger the Event</button>
+            <div><code>Open the console to see the output</code></div>
+            <br />
+          </div>
+
+          <div>
+            <label for="unreg-event-name">Unregister the event.</label>
+            <input
+              maxlength="10"
+              placeholder="Event-Name"
+              id="unreg-event-name"
+              type="text"
+            />
+            <button id="unreg-event">Unregister the event.</button>
+          </div>
+          <div style="text-align: center">
+            <button id="get-all-events">Get all the event logs</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./src/index.js"></script>
+  </body>
+</html>

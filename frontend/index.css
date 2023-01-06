@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  padding: 5rem 5rem;
+  background-color: rgb(183, 217, 225);
+  color: rgb(63, 63, 63);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-self: center;
+  justify-content: center;
+}
+
+button {
+  font-family: monospace;
+  font-weight: bold;
+  background-color: rgb(246, 246, 246);
+  color: rgb(63, 63, 63);
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+button:hover {
+  background-color: rgb(63, 63, 63);
+  color: rgb(246, 246, 246);
+}
+
+input {
+  background-color: rgb(246, 246, 246);
+  color: rgb(116, 113, 113);
+  border: none;
+  border-radius: 5px;
+  width: auto;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+section {
+  box-shadow: 0 0 0.5rem 0.1rem rgb(79, 98, 103);
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+code {
+  color: rgb(146, 75, 75);
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0.5rem;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+#get-all-events {
+  background-color: rgb(63, 63, 63);
+  color: rgb(246, 246, 246);
+}
